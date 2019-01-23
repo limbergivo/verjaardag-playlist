@@ -1,0 +1,18 @@
+// UserInput
+    //beware empty comparison
+if
+    SELECT * FROM SONGS WHERE user = *user*
+    return_set != empty -> error
+if
+    SELECT * FROM SONGS WHERE email = *email*
+    return_set != empty -> error
+
+//SongInput
+
+for *every song-input*
+    if
+        SELECT * FROM SONGS WHERE Title = *title*
+        return_set != empty -> error
+for *every song-input*
+    INSERT INTO SONGS
+    VALUES (*title*, *author*, *url*,*message*,*user*,*email*);
