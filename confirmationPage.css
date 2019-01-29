@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/music1.jpeg");
+  background-image: url("img/music3.jpg");
   }
   .text-center{
     font-weight: bold;
@@ -23,6 +23,7 @@ body {
   width: 40px;
   margin-top: 20px;
   margin-left: 30px;
+  margin-bottom: 40px;
 }
 .fa-pen-alt{
   color: white;
@@ -31,13 +32,13 @@ body {
   padding-left: 120px;
   font-size: 40px;
 }
-.textArea{
+.textArea1{
   margin: 20px;
 }
 
 @media (max-width: 767px) {
 body{
-background-image: url("img/music1.jpeg");
+background-image: url("img/music3.jpg");
 }
 .picture1{
   display: none;

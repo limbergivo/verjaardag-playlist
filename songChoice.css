@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/music1.jpeg");
+  background-image: url("img/music3.jpg");
   }
 .text-center{
   font-weight: bold;
@@ -30,7 +30,7 @@ body {
 
 @media (max-width: 767px) {
 body{
-background-image: url("img/music1.jpeg");
+background-image: url("img/music3.jpg");
 }
 .picture{
   display: none;

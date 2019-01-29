@@ -38,4 +38,8 @@ body{
   font-weight: bold;
   color: white;
 }
+.btn-primary{
+  font-size: 2vw;
+  font-weight: bold;
+}
 }
