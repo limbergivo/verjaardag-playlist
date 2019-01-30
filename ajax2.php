@@ -13,7 +13,7 @@ if (mysqli_connect_errno()) {
     exit();
 }
 
-$query = "SELECT User, Message FROM Songs";
+$query = "SELECT User, Message FROM Songs WHERE Message != ''";
 $result = $mysqli->query($query);
 
 while($row = $result->fetch_array())
@@ -24,6 +24,12 @@ $filename = "website_data_" . date('Ymd') . ".xls";
 
   header("Content-Disposition: attachment; filename=\"$filename\"");
   header("Content-Type: application/vnd.ms-excel");
+
+  echo 'User';
+  echo ",\t";
+  echo 'Message';
+  echo ",\n";
+
 
 foreach($rows as $row)
 {

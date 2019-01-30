@@ -13,7 +13,7 @@ if (mysqli_connect_errno()) {
     exit();
 }
 
-$query = "SELECT Title, Author, User FROM Songs";
+$query = "SELECT Title, Artist, User FROM Songs";
 $result = $mysqli->query($query);
 
 while($row = $result->fetch_array())
@@ -25,11 +25,19 @@ $filename = "website_data_" . date('Ymd') . ".xls";
   header("Content-Disposition: attachment; filename=\"$filename\"");
   header("Content-Type: application/vnd.ms-excel");
 
+  echo 'Title';
+  echo ",\t";
+  echo 'Artist';
+  echo ",\t";
+  echo 'User';
+  echo ",\n";
+
+
 foreach($rows as $row)
 {
 echo $row['Title'];
 echo ",\t";
-echo $row['Author'];
+echo $row['Artist'];
 echo ",\t";
 echo $row['User'];
 echo ",\n";
