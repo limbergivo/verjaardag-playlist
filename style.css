@@ -5,11 +5,8 @@ body {
 .text-center{
   font-weight: bold;
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   }
-.picture{
-  margin-top: 100px;
-}
 .row{
   margin-top: 100px;
 }
@@ -17,19 +14,50 @@ body {
   height: 30px;
   width: 40px;
 }
-.fa-at, .fa-user{
+.fa-at{
   color: white;
   font-weight: bold;
+  margin-top: 6px;
+  margin-right: -50px;
+  font-size: 30px;
+}
+.form-control{
+  margin-bottom: 10px;
+}
+
+.btn-primary{
+  height: 30px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.fa-user-alt, .fa-music, .fa-youtube{
+  color: white;
+  font-weight: bold;
+  margin-top: 6px;
+  margin-right: -50px;
+  font-size: 30px;
+}
+
+.fa-pen-alt{
+color: white;
+font-weight: bold;
+margin-top: 30px;
+padding-left: 120px;
+font-size: 40px;
+}
+.textArea1{
+margin: 20px;
 }
 
 
-
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 body{
   background-image: url("img/music3.jpg");
   background-size: auto;
 }
-.picture{
+.fa-user-alt, .fa-music, .fa-youtube{
   display: none;
 }
 .text-center{
@@ -38,8 +66,58 @@ body{
   font-weight: bold;
   color: white;
 }
+.text-center1{
+  margin-top: 100px;
+  margin-bottom: 90px;
+  font-size: 6vw;
+  font-weight: bold;
+  color: white;
+
+}
 .btn-primary{
   font-size: 2vw;
   font-weight: bold;
+}
+.mr-4{
+  margin: 0;
+  margin-left: 250px;
+  margin-bottom: 150px;
+}
+.textArea1{
+margin-left: 50px;
+}
+.fa-at{
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 4vw;
+  margin-right: 3px;
+}
+.btn-primary{
+  margin-top: 20px;
+  margin-left: 30px;
+  font-size: 2vw;
+}
+.Bevestiging{
+  color: white;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.fa-pen-alt{
+  color: white;
+  font-weight: bold;
+  padding-left: 30px;
+  font-size: 40px;
+}
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
 }
 }
