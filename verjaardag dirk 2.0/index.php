@@ -143,7 +143,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title></title>
   </head>
   <body>
-        <form action="" method="post">
+        <form action="index.php" method="post">
           <div class="col-12 row justify-content-center">
           <p class="col-12 text-center">Verjaardag Afspeellijst</p>
           <i class="col-2 far fa-at"></i>
@@ -190,7 +190,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
           <div class="col-12 row justify-content-center">
             <p id="bevestig"class="col-12 text-center1">Bedankt voor het kiezen van je favorieten nummers! ik hoop jullie dan ook op de dansvloer te zien!</p>
-            <button type="button" class="btn btn-primary mr-4">Send</button>
+            <button type="submit" class="btn btn-primary mr-4">Send</button>
           </div>
 
 
