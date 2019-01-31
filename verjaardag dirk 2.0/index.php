@@ -111,7 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $MessageP =  test_input($_POST["Message"]);}
 
             // Prep query
-            $InsertQuery = "INSERT INTO Songs (Title, Artist, User) VALUES (?, ?, ?, ?)";
+            $InsertQuery = "INSERT INTO Songs (Title, Artist, User, Message) VALUES (?, ?, ?, ?)";
             if ($stmt = $conn->prepare($InsertQuery)){
                 // $stmt->bind_param('ssssss', $TitleP, $AuthorP, $UrlP, $MessageP, $UserP, $EmailP);
                 $stmt->bind_param('sss', $TitleP, $AuthorP, $UserP, $MessageP);
