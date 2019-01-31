@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
 background-image: url("img/music3.jpg");
 background-size: cover;
