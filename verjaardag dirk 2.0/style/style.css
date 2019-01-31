@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/music3.jpg");
+  background-image: url("../img/music3.jpg");
   background-size: auto;
   }
 .text-center{
@@ -54,7 +54,7 @@ margin: 20px;
 
 @media only screen and (max-width: 767px) {
 body{
-  background-image: url("img/music3.jpg");
+  background-image: url("../img/music3.jpg");
   background-size: auto;
 }
 .fa-user-alt, .fa-music, .fa-youtube{
