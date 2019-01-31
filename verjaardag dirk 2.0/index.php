@@ -54,14 +54,14 @@ if (isset($_POST)) {
     }
 
     if (empty($_POST["Title3"])) {
-        echo "empty3t";
+
     }
     else{
         $Title3 = test_input($_POST["Title3"]);
     }
 
     if (empty($_POST["Artist3"])){
-        echo "empty3a";
+        
     }
     else{
         $Author3 = test_input($_POST["Artist3"]);
