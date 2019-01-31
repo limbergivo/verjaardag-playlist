@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
@@ -10,6 +8,16 @@
     <title>Admin Dirk</title>
 </head>
 <body>
+<?php
+$hash = password_hash("t2Campus", PASSWORD_DEFAULT);
+
+
+
+
+
+if(password_verify($_POST["pw"], $hash)){ ?>
+     <!-- HTML here -->
+<!DOCTYPE html>
 
     <div class="col-12 row justify-content-center">
         <img src="img/dirk.jpg" class="col-4 picture" alt="dirk">
@@ -31,6 +39,16 @@
 
         </div>
     </div>
+
+<?php }else{
+    ?><form method="post">
+        <label>Admin Password</label>
+        <input type="password" name="pw">
+        <input type="submit"> <br>
+        <p>Authorised Access only!</p>
+    </form>
+<?php
+} ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </script>
