@@ -1,0 +1,153 @@
+body {
+background-image: url("img/music3.jpg");
+background-size: cover;
+}
+.text-center{
+font-weight: bold;
+color: white;
+font-size: 30px;
+}
+.text-center1{
+margin-top: 60px;
+left: 220px;
+font-size: 25px;
+font-weight: bold;
+color: white;
+}
+.row{
+margin-top: 100px;
+}
+.form-control{
+margin-bottom: 10px;
+}
+.btn-light{
+height: 30px;
+width: 40px;
+margin-top: 20px;
+margin-left: 30px;
+margin-bottom: 40px;
+color: blue;
+font-weight: bold;
+}
+.fa-user-alt, .fa-music{
+color: white;
+font-weight: bold;
+}
+.fa-user-alt{
+  padding-left: 100px;
+  left: 200px;
+}
+.fa-music{
+  bottom: 60px;
+  left: 200px;
+  padding-left: 100px;
+}
+.fa-at{
+  color: white;
+  font-weight: bold;
+  padding-left: 100px;
+  left: 200px;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.textArea1{
+  margin-left: 200px;
+  margin-top: -70px;
+  text-align:center;
+}
+.inputDesign{
+  margin-left: 250px;
+}
+.inputDesign1{
+  margin-left: 250px;
+  margin-top: -70px;
+}
+.inputDesign2{
+  margin-left: 250px;
+}
+.sendDesign{
+  margin-left: 270px;
+  left: 170px;
+  margin-bottom: 50px;
+}
+input{
+   text-align:center;
+}
+
+@media only screen and (max-width: 767px) {
+body{
+background-image: url("img/music3.jpg");
+background-size: cover;
+}
+.fa-user-alt, .fa-music, .fa-youtube{
+display: none;
+}
+.beves{
+  margin: 0 !important;
+}
+.text-center{
+  margin: 0 !important;
+  margin-top: 100px;
+  margin-bottom: 90px;
+  left: 35px;
+  font-weight: bold;
+  color: white;
+}
+.text-center1{
+margin-top: 60px;
+left: 60px;
+font-size: 25px;
+font-weight: bold;
+color: white;
+}
+.inputDesign{
+  margin-left: 120px;
+}
+.inputDesign1{
+  margin-left: 120px;
+  margin-top: -70px;
+}
+.inputDesign2{
+  margin-left: 120px;
+  margin-top: -20px;
+}
+.sendDesign{
+  margin-left: 150px;
+  left: 110px;
+  margin-bottom: 50px;
+}
+.textArea1{
+margin-left: 80px;
+}
+.fa-at{
+  display: none;
+}
+.btn-light{
+
+margin-left: 30px;
+font-size: 2vw;
+}
+.Bevestiging{
+color: white;
+font-weight: bold;
+margin-bottom: 50px;
+}
+.fa-pen-alt{
+color: white;
+font-weight: bold;
+padding-left: 30px;
+font-size: 40px;
+}
+:-moz-placeholder { /* Firefox 18- */
+text-align: center;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+text-align: center;
+}
+
+:-ms-input-placeholder {
+text-align: center;
+}
+}
