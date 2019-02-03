@@ -20,54 +20,54 @@ if (isset($_POST)) {
         return $data;
     }
     if (empty($_POST["User"])){
-        echo "emptyu";
+
     }
     else{
         $UserP = test_input($_POST["User"]);
     }
     if (empty($_POST["Title1"])) {
-        echo "empty1t";
+      
     }
     else{
         $Title1 = test_input($_POST["Title1"]);
     }
     if (empty($_POST["Artist1"])) {
-        echo "empty1a";
+        
     }
     else{
         $Author1 = test_input($_POST["Artist1"]);
     }
 
     if (empty($_POST["Title2"])) {
-        echo "empty2t";
+        
     }
     else{
         $Title2 = test_input($_POST["Title2"]);
     }
 
     if (empty($_POST["Artist2"])) {
-        echo "empty2a";
+       
     }
     else{
         $Author2 = test_input($_POST["Artist2"]);
     }
 
     if (empty($_POST["Title3"])) {
-        echo "empty3t";
+        
     }
     else{
         $Title3 = test_input($_POST["Title3"]);
     }
 
     if (empty($_POST["Artist3"])){
-        echo "empty3a";
+       
     }
     else{
         $Author3 = test_input($_POST["Artist3"]);
     }
 
     if (empty($_POST["Message"])){
-        echo "empty3m";
+       
     }
     else{
         $MessageP =  test_input($_POST["Message"]);
