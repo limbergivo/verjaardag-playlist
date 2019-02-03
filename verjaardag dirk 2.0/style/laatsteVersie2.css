@@ -1,0 +1,18 @@
+body {
+  background-image: url("img/music3.jpg");
+}
+.header1{
+  height: 150px;
+}
+.form-control {
+color: white !important;
+}
+.fadeInDown{
+  font-size: 70px;
+}
+.inputDesign2{
+  margin-top: 50px;
+}
+.lead{
+  margin-bottom: 500px;
+}
