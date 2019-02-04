@@ -1,3 +1,8 @@
+html{
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
 body {
   background-color: blue;
   background-size: cover;
@@ -7,6 +12,7 @@ body {
 }
 .form-control {
 color: white !important;
+background-color: blue !important;
 }
 .fadeInDown{
   font-size: 70px;
@@ -19,4 +25,21 @@ color: white !important;
 }
 .welkom{
   font-size: 50px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff !important;
+  text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff !important;
+  text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff !important;
+  text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #fff !important;
+  text-align: center;
 }

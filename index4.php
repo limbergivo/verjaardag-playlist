@@ -103,9 +103,9 @@ if (isset($_POST)) {
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Admin Dirk</title>
+    <title>Dirk verjaardag</title>
     <link rel="stylesheet" href="https://headervideo.github.io/hvheadervideo/css/fontawesome.min.css">
-    <link href="https://headervideo.github.io/hvheadervideo/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://headervideo.github.io/hvheadervideo/css/mdb.min.css" rel="stylesheet">
     <link href="https://headervideo.github.io/hvheadervideo/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="index4.css">
@@ -123,8 +123,8 @@ if (isset($_POST)) {
                        <div class="text-center text-white">
                           <p class=welkom>Welkom op de pagina van Dirk <br>Meld je even aan en laat Dirk weten wat jouw favorieten liedjes zijn</p>
                        </div>
-                        <a class="btn btn-danger btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="adminPage3.php">Admin</a>
-                       <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="#Song">User</a>
+                        <a class="btn btn-danger btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="adminPage3.php">Administrator</a>
+                       <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="#Song">Gebruiker</a>
                     </div>
                 </div>
             </div>
@@ -221,7 +221,7 @@ if (isset($_POST)) {
                               <input class="form-control" placeholder="Titel" name="Title3">
                            </div>
                            <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="#Songs2">Vorige</a>
-                           <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="#Bevestig">Volgende</a>
+                           <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="#Message">Volgende</a>
                         </div>
                     </div>
                 </div>
@@ -229,6 +229,30 @@ if (isset($_POST)) {
         </div>
 <div class="lead"></div>
      </div>
+
+     <!--Message-->
+     <div id="Message" class="justify-content-center">
+       <div class="header1"> </div>
+
+       <div class="view hm-white-light jarallax" data-jarallax='{"speed": 0.2}' data-jarallax-video="">
+             <div class="full-bg-img">
+               <div class="container flex-center">
+                   <div class="row">
+                       <div class="col-md-12 wow fadeIn">
+                          <div class="text-center text-white">
+                             <h1 class="display-2 mb-2 wow fadeInDown" data-wow-delay="0.3s">Geef je boodschap voor de jarige</h1>
+                             <input class="form-control" placeholder="gefeliciteerd" name="Message">
+                          </div>
+                          <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="#Songs3">Vorige</a>
+                          <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="#Bevestig">Volgende</a>
+                       </div>
+                   </div>
+               </div>
+             </div>
+       </div>
+<div class="lead"></div>
+    </div>
+
 
       <!--Bevestig-->
       <div id="Bevestig" class="justify-content-center">
@@ -254,14 +278,9 @@ if (isset($_POST)) {
 
    </div>
 </form>
-    <script type="text/javascript" src="https://headervideo.github.io/hvheadervideo/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="https://headervideo.github.io/hvheadervideo/js/popper.min.js"></script>
-    <script src="https://headervideo.github.io/hvheadervideo/js/bootstrap.min.js"></script>
-    <script src="https://headervideo.github.io/hvheadervideo/js/mdb.min.js"></script>
-    <script src="https://headervideo.github.io/hvheadervideo/js/jarallax.js"></script>
-    <script src="https://headervideo.github.io/hvheadervideo/js/jarallax-video.js"></script>
-   <script>
-       new WOW().init();
-   </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
 </html>
