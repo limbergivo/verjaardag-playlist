@@ -1,0 +1,22 @@
+body {
+  background-color: blue;
+  background-size: cover;
+}
+.header1{
+  height: 50px;
+}
+.form-control {
+color: white !important;
+}
+.fadeInDown{
+  font-size: 70px;
+}
+.inputDesign2{
+  margin-top: 50px;
+}
+.lead{
+  margin-bottom: 500px;
+}
+.welkom{
+  font-size: 50px;
+}

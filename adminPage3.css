@@ -1,0 +1,14 @@
+body {
+  background-color: blue;
+}
+.header1{
+  height: 50px;
+}
+
+td , th {
+    border: 1px solid #000;
+    background-color: #aaf;
+}
+table{
+    margin: auto;
+}
