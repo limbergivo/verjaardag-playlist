@@ -142,7 +142,7 @@ if (isset($_POST)) {
 
       <div class="header1"> </div>
 
-      <form action="index.php" method="post">
+      <form method="post">
        <div class="view hm-white-light jarallax" data-jarallax='{"speed": 0.2}' data-jarallax-video="">
                <div class="full-bg-img">
                    <div class="container flex-center">
@@ -242,8 +242,8 @@ if (isset($_POST)) {
                            <div class="text-center text-white">
                               <h1 class="display-2 mb-2 wow fadeInDown" data-wow-delay="0.3s">Bedankt voor het kiezen van je favorieten nummers! ik hoop jullie dan ook op de dansvloer te zien!</h1>
                            </div>
-                           <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="#Songs3">Vorige</a>
-                           <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="#Bevestig">Verstuur</a>
+                           <a class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" href="#Songs3">Vorige</a>
+                           <button class="btn btn-primary btn-lg wow fadeInDown" data-wow-delay="0.4s" type="submit" href="#Bevestig">Verstuur</button>
                         </div>
                     </div>
                 </div>
